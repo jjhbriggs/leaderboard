@@ -1,0 +1,44 @@
+{
+    "name": "react-hooks-redux-registration-login-example",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cornflourblue/react-hooks-redux-registration-login-example.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --open"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/react-fontawesome": "^0.1.16",
+        "file-loader": "^6.2.0",
+        "font-awesome": "^4.7.0",
+        "history": "^4.10.1",
+        "jquery": "^3.6.0",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "react-redux": "^7.2.0",
+        "react-router-dom": "^5.1.2",
+        "redux": "^4.0.5",
+        "redux-logger": "^4.0.0",
+        "redux-thunk": "^2.3.0",
+        "url-loader": "^4.1.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "css-loader": "^5.2.7",
+        "html-webpack-plugin": "^3.2.0",
+        "path": "^0.12.7",
+        "style-loader": "^2.0.0",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.2.1"
+    }
+}
